@@ -27,7 +27,7 @@ The full list of Conduit APIs is described in the [documentation](https://docume
 ## Main Task
 
 1. Create new class `./src/api/resources/CommentsApi.js`;
-2. Initialize `CommentsApi` in the `./src/api//ApiComposite.js` class and add API methods for comments CRUD operations;
+2. Initialize `CommentsApi` in the `./src/api/ApiComposite.js` class and add API methods for comments create and delete operations;
 3. Create new tests for comments APIs using the `api` fixture to access API methods:
 - *Create new comment to the article created by another user*
 - *Create new comment without auth token*
