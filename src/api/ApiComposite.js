@@ -55,4 +55,15 @@ export class ApiComposite {
   async assertSuccessResponseCode(response) {
     await this.users.assertSuccessResponseCode(response);
   }
+  async assertUnauthorizedResponseCode(response) {
+    await this.users.assertUnauthorizedResponseCode(response);
+  }
+
+  async assertUnprocessableEntityResponseCode(response) {
+    await this.users.assertUnprocessableEntityResponseCode(response);
+  }
+
+  async assertForbiddenResponseCode(response) {
+    await this.users.assertForbiddenResponseCode(response);
+  }
 }
