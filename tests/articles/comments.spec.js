@@ -123,6 +123,6 @@ test.describe('Comments API', () => {
       anotherUserToken,
     );
 
-    await api.assertUnauthorizedResponseCode(deleteResponse);
+    await api.assertForbiddenResponseCode(deleteResponse);
   });
 });
